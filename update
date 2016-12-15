@@ -1,0 +1,24 @@
+
+#!/bin/bash
+ 
+echo $'\t-> clean:\n'
+apt-get clean
+apt-get autoclean
+echo $'clean: done\n'
+sleep 1
+ 
+echo $'\t-> update:\n'
+apt-get update
+echo $'update: done\n'
+sleep 1
+ 
+echo $'\t-> upgrade:\n'
+apt-get upgrade
+echo $'\n\t-> upgrade: done!\n'
+ 
+echo $'\t-> sys-keeping:\n'
+apt-get autoremove
+echo $'sys-keeping: done!\n'
+ 
+exit 0
+
