@@ -13,8 +13,9 @@ echo $'update: done\n'
 sleep 1
  
 echo $'\t-> upgrade:\n'
-apt-get upgrade
+apt-get dist-upgrade
 echo $'\n\t-> upgrade: done!\n'
+sleep 1
  
 echo $'\t-> sys-keeping:\n'
 apt-get autoremove
