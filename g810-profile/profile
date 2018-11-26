@@ -1,0 +1,46 @@
+# Sample profile by groups keys
+
+g logo ff0000
+g indicators ff0000
+g multimedia 00ffff
+g fkeys 00ffff
+g modifiers ff00ff
+g arrows 009696
+g numeric 00ff00
+g functions ff00ff
+g keys ff0000
+g gkeys ffffff
+
+k 0 00ff00
+k 1 00ff00
+k 2 00ff00
+k 3 00ff00
+k 4 00ff00
+k 5 00ff00
+k 6 00ff00
+k 7 00ff00
+k 8 00ff00
+k 9 00ff00
+
+k back_light 00ffff
+
+k tab ff00ff
+k caps_lock ff00ff
+k backspace ff00ff
+k enter ff00ff
+
+k tilde ffff00
+k minus ffff00
+k equal ffff00
+k close_bracket ffff00
+k backslash ffff00
+k dollar ffff00
+k intl_backslash ffff00
+k comma ffff00
+k period ffff00
+k slash ffff00
+
+
+
+
+c # Commit changes
