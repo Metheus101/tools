@@ -8,16 +8,18 @@ echo $'clean: done\n'
 sleep 1
  
 echo $'\t-> update:\n'
-apt-get update
+apt update
 echo $'update: done\n'
 sleep 1
  
 echo $'\t-> upgrade:\n'
-apt-get dist-upgrade
+apt full-upgrade
 echo $'\n\t-> upgrade: done!\n'
 sleep 1
  
 echo $'\t-> sys-keeping:\n'
+apt-get clean
+apt-get autoclean
 apt-get autoremove
 echo $'sys-keeping: done!\n'
  
